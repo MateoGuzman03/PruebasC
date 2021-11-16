@@ -3,15 +3,12 @@
 
 int main(){
 
-    float circunferencia, area, diametro, radio, pi;
+    float radio, pi;
     pi = 3,14;
 
     printf("Ingrese un Radio para el circulo \n");
     scanf("%f", &radio);
-    diametro = radio * 2;
-    circunferencia = pi * diametro;
-    area = pi * radio;
-    printf("La circunferencia del circulo es: %f, y el area es: %f", circunferencia, area);
-
+    printf("La circunferencia del circulo es: %f y el area es %f", pi*(radio*2), pi*(radio*radio));
+    
     return 0;
 }
