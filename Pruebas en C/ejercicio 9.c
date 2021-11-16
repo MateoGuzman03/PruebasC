@@ -3,17 +3,21 @@
 
 int main() {
 
-    float pulgadas, cm;
+    float pulgadas, pulgada, cm, pie;
     int pies;
+
 
     printf("Ingrese una cantidad de centimetros \n");
     scanf("%f", &cm);
 
-    pulgadas = cm / 2.54;
-    pies =  pulgadas / 12;
+    pulgada = 2.54;
+    pie =  30.48;
+    pies = cm / pie;
+    pulgadas = pie / pulgada;
 
-    printf("%f cm son %f pies o %f pulgadas", cm, pies, pulgadas);
 
+    printf("pies %f \n", pies);
+    printf("%f cm son %i pies y %f pulgadas", cm, pies, pulgadas);
 
 
     return 0;
