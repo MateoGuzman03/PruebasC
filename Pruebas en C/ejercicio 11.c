@@ -3,16 +3,16 @@
 
 int main() {
 
-    int i, imp;
-    i = 0;
-    while(i<=100){
-        imp = i % 2;
-        if(imp == 1){
-            printf("\t%i\n", i);
+    int num, imp;
+    num = 0;
+    while(num<=100){
+        if(num%2 == 1){
+            printf("\t%i\n", num);
+            imp++;
         }
-            i++;
+            num++;
     }
-
+    printf("\tNumeros impares: %i", imp);
 
 
     return 0;
