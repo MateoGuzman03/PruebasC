@@ -33,6 +33,7 @@ int main() {
         case 7: printf("Eligio el dia Domingo");
             break;
 
+        default: printf("El numero que elijio no equivale a ningun dia de la semana");
 
     }
 
