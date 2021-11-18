@@ -5,7 +5,7 @@ int main() {
 
     int num,resp;
 
-    printf("Ingrese un numero para elejir un dia de la semana, sabiendo que 1 es Lunes \n");
+    printf("Ingrese un numero para elejir un dia de la semana, tener en cuenta que 1 es Lunes \n");
     scanf("%i", &num);
 
         switch(num) {
