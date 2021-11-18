@@ -9,7 +9,15 @@ int main() {
     scanf("%i", &num);
 
     switch(num) {
-        case 1: printf("Eligio el dia Lunes");
+         case 1: printf("Eligio el dia Lunes, quiere seguir trabajando o salir? Indique Si para seguir trabajando y No para salir");
+                scanf("%c", &resp);
+                switch(resp) {
+                case 'Si': printf("Sigue trabajando");
+                    break;
+                case 'No': printf("Ya no trabaja");
+                    break;
+                default: printf("Resuesta invalda");
+                }
             break;
         case 2: printf("Eligio el dia Martes");
             break;
