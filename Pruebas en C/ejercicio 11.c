@@ -33,6 +33,22 @@ int main() {
             printf("\tNumeros impares: %i", imp);*/
     
     /////////////////////////////////////////////////////////////////////////////////
+   
+    /*int num, imp;
+
+    //num = 0;
+    imp = 0;
+
+    for(num=0; num<=100; num++){
+
+        if(num%2==1){
+            printf("\t%i\n", num);
+                imp++;
+        }
+
+    }
+    printf("\tNumeros impares: %i", imp);*/
+
 
 
     return 0;
