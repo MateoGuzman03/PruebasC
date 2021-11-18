@@ -8,13 +8,13 @@ int main() {
     multi2 = 0;
     multi3 = 0;
 
+        printf("\Multiplos de 2\n");
+        printf("\t\t\t\t\t\tMultiplos de 3\n");
     while(multi2, multi3<100){
-        printf("\tMultiplos de 2\n");
-        printf("\t%i\n", multi2);
+        printf("\%i\n", multi2);
         multi2+=2;
-        printf("\tMultiplos de 3\n");
-        printf("%i\n", multi3);
-        multi3+=3;
+        printf("\t\t\t\t\t\t%i\n", multi3);
+        multi3+=3;i3+=3;
 
 
     }
