@@ -10,30 +10,31 @@ int main() {
     scanf("%i", &num);
 
     switch(num) {
-         case 1: printf("Eligio el dia Lunes, quiere seguir trabajando o salir? Indique Si para seguir trabajando y No para salir");
-                scanf("%c", &resp);
-                switch(resp) {
-                case 'Si': printf("Sigue trabajando");
-                    break;
-                case 'No': printf("Ya no trabaja");
-                    break;
-                default: printf("Resuesta invalda");
-                }
+        case 1: printf("Eligio el dia Lunes \n");
             break;
-        case 2: printf("Eligio el dia Martes");
+        case 2: printf("Eligio el dia Martes \n");
             break;
-        case 3: printf("Eligio el dia Miercoles");
+        case 3: printf("Eligio el dia Miercoles \n");
             break;
-        case 4: printf("Eligio el dia Jueves");
+        case 4: printf("Eligio el dia Jueves \n");
             break;
-        case 5: printf("Eligio el dia Viernes");
+        case 5: printf("Eligio el dia Viernes \n");
             break;
-        case 6: printf("Eligio el dia Sabado");
+        case 6: printf("Eligio el dia Sabado \n");
             break;
-        case 7: printf("Eligio el dia Domingo");
+        case 7: printf("Eligio el dia Domingo \n");
             break;
 
         default: printf("El numero que elijio no equivale a ningun dia de la semana");
+    }
+
+    printf("Quiere seguir trabajando? Ingrese S en caso de querer seguir trabajando, y N en caso de que no \n");
+    scanf("%c", &resp);
+
+    switch(resp){
+        case 'S': printf("Seguire trabajando");
+        case 'N': printf("No seguire trabando");
+    }
 
     }
 
