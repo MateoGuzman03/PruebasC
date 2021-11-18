@@ -9,20 +9,21 @@ int main() {
     scanf("%i", &num);
 
     switch(num) {
-        case 1: printf("Hoy es Lunes");
+        case 1: printf("Eligio el dia Lunes");
             break;
-        case 2: printf("Hoy es Martes");
+        case 2: printf("Eligio el dia Martes");
             break;
-        case 3: printf("Hoy es Miercoles");
+        case 3: printf("Eligio el dia Miercoles");
             break;
-        case 4: printf("Hoy es Jueves");
+        case 4: printf("Eligio el dia Jueves");
             break;
-        case 5: printf("Hoy es Viernes");
+        case 5: printf("Eligio el dia Viernes");
             break;
-        case 6: printf("Hoy es Sabado");
+        case 6: printf("Eligio el dia Sabado");
             break;
-        case 7: printf("Hoy es Domingo");
+        case 7: printf("Eligio el dia Domingo");
             break;
+
 
     }
 
