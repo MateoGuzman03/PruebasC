@@ -158,6 +158,10 @@ int main() {
         printf("\tEl valor debe ser distinto a 0\n");
         printf("\tIngrese un numero distinto a 0\n"); scanf("%i", &num10);
     }
+     
+     if(prod>0){
+        prod=0;
+    }
 
 
 
