@@ -3,23 +3,29 @@
 
 int main() {
 
-    int n, cuad, cub;
+  int n, cuad, cub, num = 1;
 
     printf("\tIngrese un numero\n"); scanf("%i", &n);
-    cuad= n*n;
-    cub= n*n*n;
 
     printf("Numero");
 
     printf("\t\t\t\tCuadrado");
 
-    printf("\t\t\t\t\t\tCubo\n");
+    printf("\t\t\tCubo\n");
 
-    printf("%i", n);
 
-    printf("\t\t\t\t%i", cuad);
+    while(num<=n){
 
-    printf("\t\t\t\t\t\t\t%i", cub);
+        cuad= num*num;
+        cub= num*num*num;
+
+        printf("%i\n", num);
+
+        printf("\t\t\t\t%i\n", cuad);
+
+        printf("\t\t\t\t\t\t\t\t%i\n", cub);
+        num++;
+    }
 
 
 
