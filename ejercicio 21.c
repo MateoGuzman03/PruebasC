@@ -163,7 +163,9 @@ int main() {
         prod=0;
     }
 
-
+     if(prod==1){
+        prod=0;
+    }
 
 
         printf("\t%i\n", suma);
