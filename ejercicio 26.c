@@ -5,11 +5,11 @@ int main() {
 
     int lad1, lad2, lad3, sum1y2, sum2y3, sum1y3;
 
-    printf("\tIngrese un largo para el lado 1 del triangulo\n"); scanf("\%i", &lad1);
+    printf("\tIngrese un largo para el lado 1 del triangulo\n"); scanf("%i", &lad1);
 
-    printf("\tIngrese un largo para el lado 2 del triangulo\n"); scanf("\%i", &lad2);
+    printf("\tIngrese un largo para el lado 2 del triangulo\n"); scanf("%i", &lad2);
 
-    printf("\tIngrese un largo para el lado 3 del triangulo\n"); scanf("\%i", &lad3);
+    printf("\tIngrese un largo para el lado 3 del triangulo\n"); scanf("%i", &lad3);
 
     sum1y2 = lad1 + lad2;
     sum2y3 = lad2 + lad3;
