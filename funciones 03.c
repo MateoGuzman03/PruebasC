@@ -29,9 +29,10 @@ int Determinar(int num){
         resultado = printf("\tEs positivo\n");
     }
     else
-    {
+   {
         if(num<0){
-            resultado = printf("\tEs negativo\n");
+                resultado = printf("\tEs negativo\n");
+        }
     }
     return resultado;
 }
