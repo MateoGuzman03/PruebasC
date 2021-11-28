@@ -30,8 +30,7 @@ int Sumar (int num1, int num2){
     return total;
 }
 
-
-iint BuscarMaximo(int num1, int num2){
+int BuscarMaximo(int num1, int num2){
     int maximo;
     if(num1>num2){
         maximo = num1;
@@ -39,7 +38,7 @@ iint BuscarMaximo(int num1, int num2){
     else if(num1<num2){
         maximo = num2;
     }
-    else if(num1==num2){
+    else{
         maximo = printf("\tSon iguales\n");
     }
     return maximo;
@@ -53,11 +52,12 @@ int BuscarMinimo(int num1, int num2){
     else if(num1<num2){
         minimo = num1;
     }
-    else if(num1== num2){
+    else{
         minimo = printf("\tSon iguales\n");
     }
     return minimo;
 }
+
 float CalcularPromedio(int num1, int num2){
     float prom;
     prom = (float)(num1+num2)/2;
