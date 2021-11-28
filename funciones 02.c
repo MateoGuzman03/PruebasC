@@ -21,7 +21,7 @@ void main(){
         suma = Sumar(num1, num2);
         resta = Restar(num1, num2);
         multi = Multiplicar(num1, num2);
-        if(num2>0){
+        if(num2!=0){
             div = Dividir(num1, num2);
         }
 
