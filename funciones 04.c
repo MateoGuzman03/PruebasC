@@ -5,23 +5,20 @@ int ElevarPotencia();
 
 void main() {
 
-    int x, y, potencia;
+    int x, y;
 
     printf("\tIngrese un numero\n"); scanf("%i", &x);
 
     printf("\tIngrese una potencia para ese numero\n"); scanf("%i", &y);
 
-    potencia = ElevarPotencia(x, y);
+    printf("\t%i",ElevarPotencia(x, y) );
 
 }
 
 int ElevarPotencia(int x, int y){
-    int result, pot=x;
-
+    int pot=x;
     for(int i=1; i<=y ; i++){
         x*=pot;
-        result = x;
     }
-    printf("%i", result);
-    return result;
+    return x;
 }
