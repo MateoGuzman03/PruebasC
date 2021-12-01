@@ -25,7 +25,7 @@ char Menu(){
         break;
         case 'C' : eleccion = 'C';
         break;
-        default : printf("\tElegi bien pedazo de tarado");
+        default : eleccion = printf("\tElegi bien pedazo de tarado");
     }
     return eleccion;
 
