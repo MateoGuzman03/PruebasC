@@ -4,17 +4,7 @@
 char Menu();
 
 void main() {
-    char menu;
-    menu = Menu();
-    switch(menu){
-        case 'A' : printf("\tOpcion A");
-        break;
-        case 'B' : printf("\tOpcion B");
-        break;
-        case 'C' : printf("\tOpcion C");
-        break;
-        default : printf("\tEleji bien pedazo de tarado");
-    }
+    printf("\t%c", Menu());
 }
 
 char Menu(){
@@ -35,7 +25,7 @@ char Menu(){
         break;
         case 'C' : eleccion = 'C';
         break;
-        default : printf("\tEleji bien pedazo de tarado");
+        default : printf("\tElegi bien pedazo de tarado");
     }
     return eleccion;
 
